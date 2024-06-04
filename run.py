@@ -4,16 +4,16 @@ import logging
 import datetime
 
 from recstudio.utils import parser_yaml, get_logger, set_color, color_dict_normal
-from gals import GALS
+from rg2 import RG2
 
 
 dataset = "ml-10m"
 
 LOG_DIR = './logs'
-model_class = GALS
+model_class = RG2
 model_conf = parser_yaml('./config.yaml')
 
-log_path = f"GALS/{dataset}/{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f')}.log"
+log_path = f"RG2/{dataset}/{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f')}.log"
 logger = get_logger(log_path)
 torch.set_num_threads(model_conf['train']['num_threads'])
 
