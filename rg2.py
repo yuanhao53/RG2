@@ -3,7 +3,7 @@ from recstudio.model import basemodel, scorer
 from recstudio.data.advance_dataset import ALSDataset
 
 
-class GALS(basemodel.BaseRetriever):
+class RG2(basemodel.BaseRetriever):
     
     def _init_model(self, train_data):
         super()._init_model(train_data)
