@@ -2,7 +2,7 @@
 
 The Ranking-Generalizable square Loss (**RG^2**) method is a newly designed loss function for collaborative filtering that utilizes Alternating Least Squares for optimization.
 
-To run the code, follow the instructions in the README.md file in the code-annoy directory.
+To run the code, please follow the instructions:
 
 - Clone the `RecStudio` repo (https://github.com/ustcml/RecStudio) and install the dependencies, add recstudio to `PYTHONPATH`.
 
