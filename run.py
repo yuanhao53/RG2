@@ -5,9 +5,10 @@ import datetime
 
 from recstudio.utils import parser_yaml, get_logger, set_color, color_dict_normal
 from rg2 import RG2
+from rgx import RGX
 
 
-dataset = "ml-10m"
+dataset = "ml-10m" #"amazon-electronics","steam"
 
 LOG_DIR = './logs'
 model_class = RG2 #RGX
