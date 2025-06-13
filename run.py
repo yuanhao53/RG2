@@ -10,7 +10,7 @@ from rg2 import RG2
 dataset = "ml-10m"
 
 LOG_DIR = './logs'
-model_class = RG2
+model_class = RG2 #RGX
 model_conf = parser_yaml('./config.yaml')
 
 log_path = f"RG2/{dataset}/{datetime.datetime.now().strftime('%Y-%m-%d-%H-%M-%S-%f')}.log"
