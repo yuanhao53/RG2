@@ -66,6 +66,9 @@ train:
     alpha: 0.005 # ml-10m: 0.1 electronics: 0.01 steam: 0.001
     lambda: 0.1 # ml-10m: 0.1 electronics: 0.01 steam: 0.001
 
+    # RGX
+    beta: 0.1 # ml-10m: 0.1 electronics: 0.01 steam: 0.001
+
 
 eval:
     batch_size: 2048
