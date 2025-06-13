@@ -1,5 +1,4 @@
-# Learning-Efficient Yet Generalizable Collaborative Filtering for Item Recommendation (ICML 2024) & Ranking-Consistent Softmax Approximation with Accelerated
-Convergence
+# Learning-Efficient Yet Generalizable Collaborative Filtering for Item Recommendation (ICML 2024) & Ranking-Consistent Softmax Approximation with Accelerated Convergence
 
 The Ranking-Generalizable Losses (**RG^2 & RG^x**) method is a newly designed loss function for collaborative filtering that utilizes Alternating Least Squares for optimization.
 
